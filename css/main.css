@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.main-home-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('../assets/cover_909.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-home-container section {
+    display: grid;
+    grid-column: 2;
+    justify-content: center;
+    grid-template-rows: 150px 200px;
+    align-items: end;
+}
+
+.main-home-button {
+    height: 40px;
+    width: 110px;
+    border-radius: 15px;
+    border: none;
+    justify-self: center;
+    background-color: #47cfac; 
+}
+
+.main-home-button a {
+    font-family: 'Roboto mono', 'monospace';
+    color: white;
+    font-size: 18px;
+}
+
+.main-home-title{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto mono', 'monospace';
+    font-size: 30px;
+}
+
+.main-home-paragraph {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto mono', 'monospace';
+    font-size: 20px;
+}
